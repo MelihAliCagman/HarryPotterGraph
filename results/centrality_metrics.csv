@@ -1,0 +1,44 @@
+,house,degree,strength,degree_centrality,closeness,betweenness,eigenvector,pagerank,clustering,core_number
+Harry,Gryffindor,31,63,0.7381,0.7778,0.484,0.4732,0.102,0.1806,5
+Dumbledore,Gryffindor,16,32,0.381,0.5915,0.2394,0.2284,0.0613,0.2,5
+Ron,Gryffindor,13,28,0.3095,0.5385,0.0708,0.2201,0.0451,0.359,5
+Hermione,Gryffindor,10,17,0.2381,0.5185,0.0331,0.1855,0.0293,0.4444,5
+Ginny,Gryffindor,10,22,0.2381,0.506,0.0163,0.1876,0.0352,0.5333,5
+Voldemort,Slytherin,10,20,0.2381,0.5385,0.0304,0.2069,0.0329,0.4222,5
+Bellatrix,Slytherin,10,19,0.2381,0.4941,0.0118,0.2016,0.0315,0.4444,5
+Snape,Slytherin,9,16,0.2143,0.5316,0.0239,0.1937,0.027,0.4722,5
+Arthur Weasley,Gryffindor,9,18,0.2143,0.5385,0.0473,0.1876,0.0291,0.5278,5
+Sirius,Gryffindor,9,21,0.2143,0.5185,0.0104,0.1879,0.0335,0.5556,5
+Fred,Gryffindor,9,19,0.2143,0.506,0.0181,0.1818,0.03,0.6111,5
+Draco,Slytherin,9,19,0.2143,0.5122,0.1004,0.1729,0.0346,0.3611,5
+Lucius Malfoy,Slytherin,9,16,0.2143,0.5122,0.0126,0.1922,0.0273,0.5278,5
+Dolores Umbridge,Slytherin,8,10,0.1905,0.525,0.0262,0.1731,0.0195,0.4286,5
+Remus Lupin,Gryffindor,7,17,0.1667,0.506,0.0064,0.1509,0.0279,0.6667,5
+Tonks,Hufflepuff,7,14,0.1667,0.4719,0.004,0.1457,0.0238,0.5714,5
+James Potter,Gryffindor,7,18,0.1667,0.4719,0.0027,0.1509,0.0288,0.619,5
+George,Gryffindor,7,17,0.1667,0.4884,0.0036,0.1589,0.0267,0.8571,5
+Narcissa Malfoy,Slytherin,7,12,0.1667,0.4828,0.0036,0.1637,0.0209,0.7143,5
+Peter Pettigrew,Gryffindor,6,11,0.1429,0.4828,0.0056,0.1434,0.0186,0.6,5
+Neville,Gryffindor,6,9,0.1429,0.4773,0.0041,0.1281,0.0172,0.5333,4
+Molly Weasley,Gryffindor,6,17,0.1429,0.4118,0.001,0.104,0.0271,0.8667,5
+McGonagall,Gryffindor,6,9,0.1429,0.4078,0.0084,0.061,0.0234,0.4667,3
+Alastor Moody,Bilinmiyor,6,12,0.1429,0.5,0.0021,0.1328,0.0214,0.8,5
+Hagrid,Gryffindor,5,10,0.119,0.5122,0.0104,0.1321,0.0185,0.6,5
+Seamus Finnigan,Gryffindor,4,5,0.0952,0.4719,0.0016,0.0928,0.0123,0.5,3
+Percy Weasley,Gryffindor,4,6,0.0952,0.3925,0.0,0.0716,0.0117,1.0,4
+Sybill Trelawney,Bilinmiyor,4,4,0.0952,0.3889,0.0008,0.042,0.0132,0.8333,3
+Kingsley Shacklebolt,Bilinmiyor,4,8,0.0952,0.4884,0.0015,0.1012,0.0154,0.8333,4
+Lily Potter,Gryffindor,4,10,0.0952,0.4565,0.0001,0.1057,0.0174,0.8333,4
+Luna,Ravenclaw,4,8,0.0952,0.4667,0.0,0.1006,0.0151,1.0,4
+Quirrell,Ravenclaw,4,4,0.0952,0.4884,0.0142,0.083,0.0115,0.6667,3
+Filius Flitwick,Ravenclaw,4,4,0.0952,0.3889,0.0476,0.0346,0.016,0.5,3
+Dobby,Bilinmiyor,3,7,0.0714,0.4516,0.0,0.0895,0.0133,1.0,3
+Dean Thomas,Gryffindor,3,4,0.0714,0.4565,0.0003,0.0778,0.0104,0.6667,3
+Crabbe,Slytherin,2,4,0.0476,0.3443,0.0,0.0199,0.0115,1.0,2
+Gilderoy Lockhart,Ravenclaw,2,2,0.0476,0.3784,0.0,0.0299,0.0073,1.0,2
+Goyle,Slytherin,2,4,0.0476,0.3443,0.0,0.0199,0.0115,1.0,2
+Cho Chang,Ravenclaw,2,3,0.0476,0.4468,0.0,0.0545,0.0112,1.0,2
+Padma Patil,Ravenclaw,2,2,0.0476,0.3621,0.0,0.0419,0.0063,1.0,2
+Cedric Diggory,Hufflepuff,2,3,0.0476,0.4468,0.0,0.0545,0.0112,1.0,2
+Pomona Sprout,Hufflepuff,1,1,0.0238,0.2819,0.0,0.0036,0.0069,0.0,1
+Garrick Ollivander,Bilinmiyor,1,1,0.0238,0.375,0.0,0.0236,0.0051,0.0,1

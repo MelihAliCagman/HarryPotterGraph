@@ -1,0 +1,592 @@
+{
+  "summary": {
+    "nodes": 43,
+    "edges": 142,
+    "density": 0.15725359911406422,
+    "avg_degree": 6.604651162790698,
+    "avg_clustering": 0.6324828459862218,
+    "transitivity": 0.38593866866118176,
+    "components": 1,
+    "main_component_size": 43,
+    "diameter": 5,
+    "radius": 3,
+    "avg_shortest_path": 2.1849390919158362,
+    "isolated": []
+  },
+  "relation_counts": {
+    "friend": 40,
+    "family": 31,
+    "ally": 44,
+    "enemy": 27
+  },
+  "top": {
+    "degree": [
+      [
+        "Harry",
+        31
+      ],
+      [
+        "Dumbledore",
+        16
+      ],
+      [
+        "Ron",
+        13
+      ],
+      [
+        "Hermione",
+        10
+      ],
+      [
+        "Ginny",
+        10
+      ]
+    ],
+    "closeness": [
+      [
+        "Harry",
+        0.7777777777777778
+      ],
+      [
+        "Dumbledore",
+        0.5915492957746479
+      ],
+      [
+        "Ron",
+        0.5384615384615384
+      ],
+      [
+        "Voldemort",
+        0.5384615384615384
+      ],
+      [
+        "Arthur Weasley",
+        0.5384615384615384
+      ]
+    ],
+    "betweenness": [
+      [
+        "Harry",
+        0.48396063866447137
+      ],
+      [
+        "Dumbledore",
+        0.23939090332818555
+      ],
+      [
+        "Draco",
+        0.10040788673192855
+      ],
+      [
+        "Ron",
+        0.07078052609411492
+      ],
+      [
+        "Filius Flitwick",
+        0.047619047619047616
+      ]
+    ],
+    "eigenvector": [
+      [
+        "Harry",
+        0.47320844259652706
+      ],
+      [
+        "Dumbledore",
+        0.22843628471090377
+      ],
+      [
+        "Ron",
+        0.2201498525437242
+      ],
+      [
+        "Voldemort",
+        0.20693712498009592
+      ],
+      [
+        "Bellatrix",
+        0.20164479271018493
+      ]
+    ],
+    "pagerank": [
+      [
+        "Harry",
+        0.10203896992494649
+      ],
+      [
+        "Dumbledore",
+        0.061301594223591764
+      ],
+      [
+        "Ron",
+        0.04506160295246772
+      ],
+      [
+        "Ginny",
+        0.03519455904360687
+      ],
+      [
+        "Draco",
+        0.03461280561111418
+      ]
+    ]
+  },
+  "top_positive_only": {
+    "degree": [
+      [
+        "Harry",
+        23
+      ],
+      [
+        "Dumbledore",
+        14
+      ],
+      [
+        "Ron",
+        12
+      ],
+      [
+        "Ginny",
+        10
+      ],
+      [
+        "Hermione",
+        9
+      ]
+    ],
+    "betweenness": [
+      [
+        "Harry",
+        0.4797480780930258
+      ],
+      [
+        "Dumbledore",
+        0.3356340910347879
+      ],
+      [
+        "Narcissa Malfoy",
+        0.1600971553933226
+      ],
+      [
+        "Snape",
+        0.1010167210515643
+      ],
+      [
+        "Draco",
+        0.0954897406116918
+      ]
+    ]
+  },
+  "positive_graph": {
+    "nodes": 43,
+    "edges": 115,
+    "density": 0.1273532668881506,
+    "avg_degree": 5.348837209302325,
+    "avg_clustering": 0.6226456556588003,
+    "transitivity": 0.4207980652962515,
+    "components": 1,
+    "main_component_size": 43,
+    "diameter": 5,
+    "radius": 3,
+    "avg_shortest_path": 2.520487264673311,
+    "isolated": []
+  },
+  "articulation_points": [
+    "Draco",
+    "Dumbledore",
+    "Filius Flitwick",
+    "Harry"
+  ],
+  "bridges": [
+    [
+      "Dumbledore",
+      "Garrick Ollivander"
+    ],
+    [
+      "Filius Flitwick",
+      "Pomona Sprout"
+    ]
+  ],
+  "house_matrix": {
+    "Gryffindor": {
+      "Gryffindor": 60,
+      "Slytherin": 24,
+      "Ravenclaw": 14,
+      "Hufflepuff": 4,
+      "Bilinmiyor": 10
+    },
+    "Slytherin": {
+      "Gryffindor": 24,
+      "Slytherin": 19,
+      "Ravenclaw": 0,
+      "Hufflepuff": 2,
+      "Bilinmiyor": 2
+    },
+    "Ravenclaw": {
+      "Gryffindor": 14,
+      "Slytherin": 0,
+      "Ravenclaw": 0,
+      "Hufflepuff": 2,
+      "Bilinmiyor": 2
+    },
+    "Hufflepuff": {
+      "Gryffindor": 4,
+      "Slytherin": 2,
+      "Ravenclaw": 2,
+      "Hufflepuff": 0,
+      "Bilinmiyor": 2
+    },
+    "Bilinmiyor": {
+      "Gryffindor": 10,
+      "Slytherin": 2,
+      "Ravenclaw": 2,
+      "Hufflepuff": 2,
+      "Bilinmiyor": 1
+    }
+  },
+  "house_assortativity": 0.4054421768707484,
+  "house_assortativity_p": 0.0004997501249375312,
+  "communities": [
+    [
+      "Arthur Weasley",
+      "Fred",
+      "George",
+      "Ginny",
+      "Hermione",
+      "Luna",
+      "Molly Weasley",
+      "Neville",
+      "Padma Patil",
+      "Percy Weasley",
+      "Ron"
+    ],
+    [
+      "Alastor Moody",
+      "Cedric Diggory",
+      "Cho Chang",
+      "Dobby",
+      "Harry",
+      "James Potter",
+      "Kingsley Shacklebolt",
+      "Lily Potter",
+      "Remus Lupin",
+      "Sirius",
+      "Tonks"
+    ],
+    [
+      "Bellatrix",
+      "Crabbe",
+      "Dolores Umbridge",
+      "Draco",
+      "Goyle",
+      "Lucius Malfoy",
+      "Narcissa Malfoy",
+      "Peter Pettigrew",
+      "Snape",
+      "Voldemort"
+    ],
+    [
+      "Dumbledore",
+      "Filius Flitwick",
+      "Garrick Ollivander",
+      "Gilderoy Lockhart",
+      "Hagrid",
+      "McGonagall",
+      "Pomona Sprout",
+      "Quirrell",
+      "Sybill Trelawney"
+    ],
+    [
+      "Dean Thomas",
+      "Seamus Finnigan"
+    ]
+  ],
+  "modularity_louvain": 0.4897444147278248,
+  "modularity_houses": 0.227442739648897,
+  "nmi_communities_vs_houses": 0.41746995262218545,
+  "small_world": {
+    "C": 0.6324828459862218,
+    "L": 2.1849390919158362,
+    "C_random": 0.15827197946452393,
+    "L_random": 2.154673311184939,
+    "sigma": 3.9408219599676464
+  },
+  "structural_balance": {
+    "triangles": 172,
+    "balanced": 156,
+    "unbalanced": 16,
+    "balance_ratio": 0.9069767441860465,
+    "unbalanced_triangles": [
+      [
+        "Harry",
+        "Ron",
+        "Peter Pettigrew"
+      ],
+      [
+        "Harry",
+        "Dumbledore",
+        "Snape"
+      ],
+      [
+        "Harry",
+        "Dumbledore",
+        "Quirrell"
+      ],
+      [
+        "Harry",
+        "James Potter",
+        "Peter Pettigrew"
+      ],
+      [
+        "Harry",
+        "Lily Potter",
+        "Snape"
+      ],
+      [
+        "Harry",
+        "Draco",
+        "Narcissa Malfoy"
+      ],
+      [
+        "Harry",
+        "Snape",
+        "Narcissa Malfoy"
+      ],
+      [
+        "Harry",
+        "Voldemort",
+        "Narcissa Malfoy"
+      ],
+      [
+        "Harry",
+        "Bellatrix",
+        "Narcissa Malfoy"
+      ],
+      [
+        "Harry",
+        "Lucius Malfoy",
+        "Narcissa Malfoy"
+      ],
+      [
+        "Dumbledore",
+        "Sirius",
+        "Snape"
+      ],
+      [
+        "Sirius",
+        "James Potter",
+        "Peter Pettigrew"
+      ],
+      [
+        "Remus Lupin",
+        "James Potter",
+        "Peter Pettigrew"
+      ],
+      [
+        "James Potter",
+        "Lily Potter",
+        "Snape"
+      ],
+      [
+        "James Potter",
+        "Peter Pettigrew",
+        "Voldemort"
+      ],
+      [
+        "Bellatrix",
+        "Narcissa Malfoy",
+        "Tonks"
+      ]
+    ]
+  },
+  "robustness": {
+    "degree": [
+      1.0,
+      0.9302,
+      0.8837,
+      0.8605,
+      0.8372,
+      0.814,
+      0.6744,
+      0.6512,
+      0.6279,
+      0.5581,
+      0.4651,
+      0.2326,
+      0.2093,
+      0.186,
+      0.186,
+      0.186,
+      0.1395,
+      0.1395,
+      0.1395,
+      0.1395,
+      0.1395,
+      0.093,
+      0.093,
+      0.093,
+      0.093,
+      0.093,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0233,
+      0.0233,
+      0.0233,
+      0.0233,
+      0.0233,
+      0.0
+    ],
+    "betweenness": [
+      1.0,
+      0.9302,
+      0.8837,
+      0.814,
+      0.7907,
+      0.7442,
+      0.7209,
+      0.6744,
+      0.6512,
+      0.5116,
+      0.4884,
+      0.4651,
+      0.3721,
+      0.3721,
+      0.3488,
+      0.2093,
+      0.186,
+      0.186,
+      0.186,
+      0.093,
+      0.093,
+      0.093,
+      0.0698,
+      0.0698,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0465,
+      0.0233,
+      0.0233,
+      0.0233,
+      0.0233,
+      0.0233,
+      0.0233,
+      0.0233,
+      0.0233,
+      0.0
+    ],
+    "random": [
+      1.0,
+      0.9736,
+      0.9463,
+      0.9195,
+      0.8941,
+      0.8677,
+      0.8422,
+      0.8136,
+      0.7866,
+      0.7598,
+      0.7331,
+      0.7086,
+      0.6805,
+      0.6557,
+      0.6274,
+      0.6008,
+      0.5724,
+      0.543,
+      0.5171,
+      0.4913,
+      0.4648,
+      0.4366,
+      0.4112,
+      0.384,
+      0.3559,
+      0.3265,
+      0.3016,
+      0.275,
+      0.2477,
+      0.2235,
+      0.2009,
+      0.1748,
+      0.15,
+      0.1306,
+      0.1116,
+      0.0948,
+      0.0794,
+      0.0652,
+      0.0531,
+      0.0433,
+      0.0333,
+      0.0267,
+      0.0233,
+      0.0
+    ]
+  },
+  "correlation": {
+    "degree": {
+      "degree": 1.0,
+      "strength": 0.951,
+      "closeness": 0.881,
+      "betweenness": 0.869,
+      "eigenvector": 0.959,
+      "pagerank": 0.964
+    },
+    "strength": {
+      "degree": 0.951,
+      "strength": 1.0,
+      "closeness": 0.827,
+      "betweenness": 0.76,
+      "eigenvector": 0.93,
+      "pagerank": 0.984
+    },
+    "closeness": {
+      "degree": 0.881,
+      "strength": 0.827,
+      "closeness": 1.0,
+      "betweenness": 0.835,
+      "eigenvector": 0.935,
+      "pagerank": 0.819
+    },
+    "betweenness": {
+      "degree": 0.869,
+      "strength": 0.76,
+      "closeness": 0.835,
+      "betweenness": 1.0,
+      "eigenvector": 0.794,
+      "pagerank": 0.821
+    },
+    "eigenvector": {
+      "degree": 0.959,
+      "strength": 0.93,
+      "closeness": 0.935,
+      "betweenness": 0.794,
+      "eigenvector": 1.0,
+      "pagerank": 0.911
+    },
+    "pagerank": {
+      "degree": 0.964,
+      "strength": 0.984,
+      "closeness": 0.819,
+      "betweenness": 0.821,
+      "eigenvector": 0.911,
+      "pagerank": 1.0
+    }
+  }
+}

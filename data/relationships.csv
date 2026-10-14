@@ -1,0 +1,143 @@
+source,target,relation,weight
+Harry,Ron,friend,3
+Harry,Hermione,friend,3
+Ron,Hermione,friend,3
+Harry,Sirius,family,3
+Harry,Hagrid,friend,2
+Harry,Dumbledore,ally,3
+Harry,Luna,friend,2
+Harry,Ginny,friend,2
+Harry,Fred,friend,2
+Harry,George,friend,2
+Harry,Remus Lupin,ally,2
+Harry,Neville,friend,2
+Harry,Cho Chang,friend,1
+Harry,Cedric Diggory,friend,1
+Harry,Seamus Finnigan,friend,1
+Harry,Dean Thomas,friend,1
+Harry,Arthur Weasley,ally,2
+Harry,Kingsley Shacklebolt,ally,2
+Harry,Alastor Moody,ally,2
+Harry,Tonks,ally,2
+Harry,Dobby,friend,3
+Harry,James Potter,family,3
+Harry,Lily Potter,family,3
+Harry,Narcissa Malfoy,ally,1
+Ron,Molly Weasley,family,3
+Ron,Fred,family,3
+Ron,George,family,3
+Ron,Ginny,family,3
+Ron,Hagrid,friend,2
+Ron,Arthur Weasley,family,2
+Ron,Percy Weasley,family,1
+Ron,Padma Patil,friend,1
+Ron,Seamus Finnigan,friend,1
+Ron,Peter Pettigrew,friend,1
+Hermione,Fred,friend,1
+Hermione,George,friend,1
+Hermione,Neville,friend,1
+Hermione,Ginny,friend,2
+Hermione,Hagrid,friend,2
+Hermione,Luna,friend,2
+Hermione,Padma Patil,friend,1
+Fred,George,family,3
+Fred,Ginny,family,3
+George,Ginny,family,3
+Molly Weasley,Fred,family,3
+Molly Weasley,George,family,3
+Molly Weasley,Ginny,family,3
+Molly Weasley,Percy Weasley,family,2
+Molly Weasley,Arthur Weasley,family,3
+Arthur Weasley,Fred,family,2
+Arthur Weasley,George,family,2
+Arthur Weasley,Ginny,family,2
+Arthur Weasley,Percy Weasley,family,2
+Arthur Weasley,Dumbledore,ally,2
+Percy Weasley,Fred,family,1
+Neville,Luna,friend,2
+Neville,Ginny,friend,1
+Neville,Seamus Finnigan,friend,1
+Luna,Ginny,friend,2
+Cho Chang,Cedric Diggory,friend,2
+Seamus Finnigan,Dean Thomas,friend,2
+Dean Thomas,Ginny,friend,1
+Dumbledore,Snape,ally,3
+Dumbledore,McGonagall,ally,3
+Dumbledore,Hagrid,ally,3
+Dumbledore,Remus Lupin,ally,2
+Dumbledore,Sirius,ally,2
+Dumbledore,Filius Flitwick,ally,1
+Dumbledore,Gilderoy Lockhart,ally,1
+Dumbledore,Quirrell,ally,1
+Dumbledore,Garrick Ollivander,ally,1
+Dumbledore,Sybill Trelawney,ally,1
+Dumbledore,Alastor Moody,ally,3
+Dumbledore,Kingsley Shacklebolt,ally,2
+Sirius,Remus Lupin,friend,3
+Sirius,James Potter,friend,3
+Sirius,Tonks,family,2
+Remus Lupin,James Potter,friend,3
+Remus Lupin,Tonks,family,3
+Remus Lupin,Alastor Moody,ally,2
+James Potter,Lily Potter,family,3
+James Potter,Peter Pettigrew,friend,2
+Lily Potter,Snape,friend,2
+Alastor Moody,Kingsley Shacklebolt,ally,2
+Alastor Moody,Tonks,ally,2
+Alastor Moody,Sirius,ally,1
+Kingsley Shacklebolt,Tonks,ally,2
+McGonagall,Filius Flitwick,ally,1
+McGonagall,Gilderoy Lockhart,ally,1
+McGonagall,Quirrell,ally,1
+McGonagall,Sybill Trelawney,ally,1
+Pomona Sprout,Filius Flitwick,ally,1
+Quirrell,Sybill Trelawney,ally,1
+Filius Flitwick,Sybill Trelawney,ally,1
+Draco,Snape,ally,2
+Draco,Voldemort,ally,1
+Draco,Crabbe,friend,2
+Draco,Goyle,friend,2
+Crabbe,Goyle,friend,2
+Draco,Lucius Malfoy,family,3
+Draco,Narcissa Malfoy,family,3
+Lucius Malfoy,Narcissa Malfoy,family,3
+Lucius Malfoy,Voldemort,ally,2
+Lucius Malfoy,Bellatrix,family,2
+Lucius Malfoy,Snape,ally,1
+Narcissa Malfoy,Bellatrix,family,2
+Narcissa Malfoy,Snape,ally,1
+Narcissa Malfoy,Voldemort,ally,1
+Narcissa Malfoy,Tonks,family,1
+Bellatrix,Voldemort,ally,3
+Bellatrix,Snape,ally,1
+Dolores Umbridge,Lucius Malfoy,ally,1
+Dolores Umbridge,Voldemort,ally,1
+Dolores Umbridge,Bellatrix,ally,1
+Peter Pettigrew,Voldemort,ally,2
+Harry,Voldemort,enemy,3
+Harry,Draco,enemy,3
+Harry,Snape,enemy,2
+Harry,Bellatrix,enemy,2
+Harry,Dolores Umbridge,enemy,2
+Harry,Quirrell,enemy,1
+Harry,Lucius Malfoy,enemy,1
+Harry,Peter Pettigrew,enemy,1
+Hermione,Draco,enemy,1
+Ron,Draco,enemy,2
+Neville,Bellatrix,enemy,2
+Sirius,Bellatrix,enemy,2
+Sirius,Snape,enemy,2
+Sirius,Peter Pettigrew,enemy,3
+Remus Lupin,Peter Pettigrew,enemy,2
+James Potter,Snape,enemy,2
+James Potter,Voldemort,enemy,2
+Lily Potter,Voldemort,enemy,2
+Dumbledore,Voldemort,enemy,3
+Dumbledore,Dolores Umbridge,enemy,1
+McGonagall,Dolores Umbridge,enemy,2
+Hagrid,Dolores Umbridge,enemy,1
+Fred,Dolores Umbridge,enemy,1
+Arthur Weasley,Lucius Malfoy,enemy,1
+Dobby,Lucius Malfoy,enemy,2
+Dobby,Bellatrix,enemy,2
+Tonks,Bellatrix,enemy,2

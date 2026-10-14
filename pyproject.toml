@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hpgraph"
+version = "2.0.0"
+description = "Harry Potter karakter ağının graf teorisi ile sosyal ağ analizi"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "networkx>=3.2",
+    "pandas>=2.0",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "nbclient", "nbformat", "ipykernel", "reportlab"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
